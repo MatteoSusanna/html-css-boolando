@@ -39,6 +39,10 @@ header .barra-alto{
     height: 70px;
 }
 
+.icone i{
+    color: white;
+}
+
 
 
 /*fine header*/
