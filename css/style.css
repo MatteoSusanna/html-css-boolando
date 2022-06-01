@@ -122,5 +122,55 @@ span{
     top: 0;
     right: 0;
 }
-
 /*fine main*/
+
+/*inizio footer*/
+footer{
+    background-color: #1a1a1a;
+    height: 100px;
+}
+
+.barra-basso{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-basso .info ul{
+    display: flex;
+}
+
+.barra-basso .info ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.barra-basso .info ul a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+.info{
+    color: white;
+    margin: 10px 0px;
+}
+
+.social{
+    color: white;
+}
+
+.social i, .social h4{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/*fine footer*/
