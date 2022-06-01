@@ -61,8 +61,8 @@ header .barra-alto{
 }
 
 .container-img .blocco{
-    width: calc('100% / 3');
-    margin: 70px 0px;
+    width: calc(100% / 3);
+    padding: 20px;
 }
 
 .blocco{
@@ -70,7 +70,7 @@ header .barra-alto{
 }
 
 .blocco img{
-    height: 600px;
+    width: 100%;
 }
 
 .blocco .none{
@@ -115,8 +115,8 @@ span{
 
 .heart{
     margin-top: 10px;
-    padding: 20px;
-    font-size: 40px;
+    padding: 10px;
+    font-size: 20px;
     background-color: white;
     position: absolute;
     top: 0;
@@ -167,10 +167,5 @@ footer{
     padding: 10px;
     font-size: 20px;
 }
-
-
-
-
-
 
 /*fine footer*/
