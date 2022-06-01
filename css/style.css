@@ -84,5 +84,43 @@ header .barra-alto{
     display: block;
 }
 
+span{
+    text-decoration: line-through;
+}
+
+.blocco .prezzo{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.sconto span{
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+}
+
+.sconto .red{
+    background-color: red;
+}
+
+.sconto .green{
+    background-color: green;
+}
+
+.sconto{
+    position: absolute;
+    top: 75%;
+}
+
+.heart{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 40px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 /*fine main*/
