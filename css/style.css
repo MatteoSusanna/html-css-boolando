@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*inizio header*/
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #ff6900;
+}
+
+header .barra-alto{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.genere ul li {
+    list-style: none;
+}
+
+.genere ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.genere ul{
+    display: flex;
+}
+
+.logo img{
+    height: 70px;
+}
+
+
+
+/*fine header*/
