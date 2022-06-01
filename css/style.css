@@ -10,6 +10,10 @@ header{
     height: 70px;
     width: 100%;
     background-color: #ff6900;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
 }
 
 header .barra-alto{
@@ -42,7 +46,43 @@ header .barra-alto{
 .icone i{
     color: white;
 }
-
-
-
 /*fine header*/
+
+
+
+/*inizio main*/
+
+.container-img{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-img .blocco{
+    width: calc('100% / 3');
+    margin: 70px 0px;
+}
+
+.blocco{
+    position: relative;
+}
+
+.blocco img{
+    height: 600px;
+}
+
+.blocco .none{
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+}
+
+.blocco:hover .none{
+    display: block;
+}
+
+
+/*fine main*/
